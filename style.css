@@ -1,0 +1,453 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(24, 24, 88);
+}
+#top{
+ 
+    width: 100%;
+    height: 60%;
+     background-color: rgb(12, 12, 63);
+  
+}
+#top svg{
+    position: absolute;
+    bottom: 4%;
+}
+#bottom{
+    width: 100%;
+    height: 40%;
+    background-color: rgb(214, 213, 213);
+}
+#nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+   
+}
+#circle1{
+        width: 40px;
+        height: 40px;
+        border: .2px solid #fff;
+        margin-right: 20px;
+      background-image: url(https://www.ssb.texas.gov/sites/default/files/Crypto_cutout_logo.png);
+      background-position: center;
+      background-size: cover;
+        border-radius: 50%;
+}
+#first{
+    display: flex;
+    align-items: center;
+    width: 12%;
+    height: 100%;
+    
+}
+#first h6{
+    font-family: gilroy;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+}
+#second{
+    display: flex;
+    align-items: center;
+    padding: 35px;
+    width: 30%;
+    height: 100%;
+}
+#second a{
+margin-left: 40px;
+color: #fff;
+font-family: gilroy;
+font-size: 13px;
+text-decoration: none;
+}
+#third{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    padding: 35px;
+    height: 100%;
+    
+}
+#cir1{
+    position: relative;
+    width: 100px;
+    height: 30px;
+    margin-right: 20px;
+    background-color: aqua;
+   
+    border: .2px solid #fff;
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   border-top-right-radius: 20px;
+}
+#cir1 h6{
+    color:black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#cir2{
+    position: relative;
+    width: 100px;
+    height: 30px;
+    margin-right: 20px;
+    border: .2px solid #fff;
+    background-color: rgba(0, 0, 0, 0);
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   border-top-right-radius: 20px;
+}
+#cir2 h5{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#circle{
+    width: 40px;
+    height: 40px;
+  background-image: url(https://www.pngkey.com/png/detail/10-108591_cryptocurrency-symbol-bitcoin-logo-bytecoin-crypto-currency-symbol.png);
+  background-position: center;
+  background-size: cover;
+    border-radius: 50%;
+}
+#circle img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#txt{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: 30%;
+    height: 40%;
+}
+#cir3{
+    position: relative;
+    width: 400px;
+    height: 30px;
+    border: .2px solid #fff;
+    background-color: rgba(0, 0, 0, 0);
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   border-top-right-radius: 20px;
+ background-color: rgb(21, 185, 177);
+}
+#half{
+    width: 300px;
+    height: 30px;
+    background-color: #fff;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: .2px solid #fff ;
+}
+#half h6{
+    font-size: 11px;
+    font-family: gilroy;
+    letter-spacing: 1px;
+position: absolute;
+top: 50%;
+left: 5%;
+transform: translate(0%,-50%);
+}
+#half h6 input{
+    width: 280px;
+    height: 30px;
+    
+}
+#txt h1{
+    font-size: 40px;
+    font-family: gilroy;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.959);
+    margin-top: 20px;
+    line-height: 45px;
+}
+#txt p{
+    color: rgba(255, 255, 255, 0.849);
+    font-size: 13px;
+    margin-top: 20px;
+    font-family: gilroy;
+}
+#txt h1 span{
+    color:rgb(255, 51, 0);
+}
+#cir4{
+    position: relative;
+    width: 330px;
+    height: 40px;
+    border: .2px solid #fff;
+    background-color:rgb(0, 0, 139);
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   border-top-right-radius: 20px;
+ 
+}
+#cir4 h5{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgba(255, 255, 255, 0.911);
+}
+#hcir4{
+    width: 20px;
+    height: 100%;
+    background-color: rgb(62, 212, 204);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: .2px solid rgba(255, 255, 255, 0);
+}
+#top img{
+    position: absolute;
+    right: 10%;
+    top: 15%;
+}
+#nav1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    padding: 30px;
+}
+#nav1 h5{
+    font-family: Gilroy;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+#info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    height: 80%;
+    background-color: rgba(255, 0, 0, 0);
+}
+#one{
+    position: relative;
+    width: 20%;
+    height: 100%;
+    background-color: #fff;
+    margin-left: 140px;
+    padding: 10px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#one img{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0%);
+    width:60%;
+    height: 60%;
+}
+
+#one h4{
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    color: black;
+   font-size: 14px;
+   letter-spacing: 1px;
+    font-family: gilroy;
+    margin-top: 10px;
+}
+#one p{
+    font-size: 11px;
+    font-family: gilroy;
+    color: black;
+    position: absolute;
+    bottom: 10%;
+ 
+}
+#two{
+    position: relative;
+    width: 20%;
+    height: 100%;
+    background-color: #fff;
+    padding: 10px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#two img{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0%);
+    width:65%;
+    height: 60%;
+}
+#two h4{
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    color: black;
+   font-size: 14px;
+   letter-spacing: 1px;
+    font-family: gilroy;
+    margin-top: 10px;
+}
+#two p{
+    font-size: 11px;
+    font-family: gilroy;
+    color: black;
+    position: absolute;
+    bottom: 10%;
+ 
+}
+#three{
+    position: relative;
+    width: 20%;
+    height: 100%;
+    background-color: #fff;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-right: 140px;
+    padding: 10px;
+}
+#three img{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0%);
+    width:45%;
+    height: 60%;
+}
+#three p{
+    font-size: 11px;
+    font-family: gilroy;
+    color: black;
+    position: absolute;
+    bottom: 10%;
+ 
+}
+#three h4{
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    color: black;
+   font-size: 14px;
+   margin-top: 10px;
+   letter-spacing: 1px;
+    font-family: gilroy;
+}
+#cir4:hover{
+    cursor: pointer;
+    background-color: black;
+}
+#write{
+    width: 10%;
+    height: 64%;
+    background-color: rgba(255, 0, 0, 0);
+    position: absolute;
+    right: 0%;
+}
+#write h5{
+    margin-top: 150px;
+    margin-left: 140px;
+    transform-origin: 0% 0%;
+    transform: rotate(90deg);
+    font-family: Gilroy;
+    font-size: 14px;
+   color: #fff;
+   letter-spacing: 2px;
+   font-weight: 600
+}
+#write h5 span{
+    color:rgb(255, 51, 0) ;
+}
+#det{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: gilroy;
+    font-size: 13px;
+    height: 30%;
+    background-color: rgba(255, 0, 0, 0);
+   
+   
+}
+#det1{
+  width: 50%;
+  height: 100%;
+  background-color: rgba(0, 0, 255, 0);
+  margin-left: 30px;
+  margin-top: 45px;
+  color: rgba(255, 0, 0, 0.822);
+ 
+ 
+}
+#det2{
+    width: 40%;
+    height: 100%;
+    background-color: rgba(0, 0, 255, 0);
+    margin-top: 45px;
+    color: green;
+}
+#det3{
+    width: 50%;
+    height: 100%;
+    background-color: rgba(0, 0, 255, 0);
+    margin-top: 45px;
+    color: blue;
+}
+#one:hover{
+    transform: scale(0.9);
+    transition: all 2s linear;
+   
+}
+#two:hover{
+    transform: scale(0.9);
+    transition: all 2s linear;
+   
+}
+
+#three:hover{
+     transform: scale(0.9);
+    transition: all  2s linear; 
+  
+}
+#nav a:hover{
+  color: red;
+}
+#cir1:hover{
+   background-color: rgb(28, 104, 34);
+   
+}
+#txt h1:hover{
+    color: transparent;
+    -webkit-text-stroke: 1.4px rgba(255, 255, 255, 0.24);
+}
+#txt h1 span:hover{
+    color: transparent;
+    -webkit-text-stroke: 1.4px rgba(255, 68, 0, 0.349);
+}
+#cir2:hover{
+    background-color: black;
+}
